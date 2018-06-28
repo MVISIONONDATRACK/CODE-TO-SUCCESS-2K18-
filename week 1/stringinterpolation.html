@@ -1,0 +1,57 @@
+<DOCTYPE html>
+	<div class="car-maserati"></div>
+<div class="car-tesla"></div>
+<div class="car-porsche"></div>
+
+// List
+$cars: 'maserati', 'tesla', 'porsche';
+
+// Each directive
+@each $car-name in $cars {
+  // String interpolation
+  .car-#{$car-name} {
+    background-image: url('https://s3.amazonaws.com/bottega-devcamp/scss/cars/#{$car-name}.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    object-fit: fill;
+    float: left;
+  }
+}
+
+// List
+$cars: 'maserati', 'tesla', 'porsche';
+
+// Each directive
+@each $car-name in $cars {
+  // String interpolation
+  .car-#{$car-name} {
+    background-image: url('https://s3.amazonaws.com/bottega-devcamp/scss/cars/#{$car-name}.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    object-fit: fill;
+    float: left;
+  }
+}
+
+<div class="car-maserati"></div>
+<div class="car-tesla"></div>
+<div class="car-porsche"></div>
+
+// List
+$cars: 'maserati', 'tesla', 'porsche';
+
+// Each directive
+@each $car-name in $cars {
+  // String interpolation
+  .car-#{$car-name} {
+    background-image: url('https://s3.amazonaws.com/bottega-devcamp/scss/cars/#{$car-name}.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+    object-fit: fill;
+    float: left;
+  }
+}
+
